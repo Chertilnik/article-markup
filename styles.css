@@ -17,6 +17,19 @@ p {
     width: 700px;
 }
 
+.header_img img{
+    padding-left: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article img {
+        margin: 43px 362px 37px 361px;
+        /* max-height: 540px;
+        max-width: 520px; */
+        
+    }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -24,11 +37,7 @@ nav ul {
     /* margin-left: 38px; */
 }
 
-.header_img img{
-    padding-left: 38px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 
 .header {
     margin-left: 0px;
@@ -87,10 +96,11 @@ nav ul li a:active{
         width: 520px;
     }
 
-    img {
+    article img {
         margin: 43px 362px 37px 361px;
         max-height: 540px;
         max-width: 520px;
+
     }
 
     .nexttophoto p{
